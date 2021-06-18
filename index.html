@@ -1,0 +1,26 @@
+<html>
+    
+    <head>
+        
+        <title>jQuery</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        
+        <center><h1>jQuery</h1></center>
+<center><button>Pritisni</button></center>
+        
+    </body>
+</html>
+<script>$(document).ready(function(){
+        
+        $('button').click(function(){
+            $('h1').css('color','green');
+            $('h1').after('<h2>Neki tekst</h2>');
+        });
+        
+        
+        
+    });
+
+</script>
